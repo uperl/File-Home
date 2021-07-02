@@ -173,7 +173,7 @@ variable on Windows and does not use C<GetFolderPath> + C<CSIDL_PROFILE> as a fa
 Wow.  This was intended to address the problems of L<File::HomeDir> being just too much most
 of the time, while supporting older Windows Perls where C<< <~> >> returns the wrong value.
 Unfortunately instead of special casing C<MSWin32> it special cases C<Win32> which is not
-a platform that exists for Windows.  This is a bug which has gone unaddressed ans unanswered
+a platform that exists for Perl.  This is a bug which has gone unaddressed ans unanswered
 since October 2018 as of this writing.
 
 If this bug were fixed it would essentially provide the same algorithm as C<< <~> >> on all
