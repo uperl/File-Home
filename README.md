@@ -78,6 +78,9 @@ does the legwork and creates a PR.
 
 # SEE ALSO
 
+Most existing implementations use the `HOME` environment variable if it is defined
+on Windows, which is arguably incorrect.
+
 - `<~>`
 
     This operator will give you the home directory.  It is correct in Unix, in that it will
@@ -117,7 +120,7 @@ Graham Ollis <plicease@cpan.org>
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2021 by Graham Ollis.
+This software is copyright (c) 2021-2022 by Graham Ollis.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

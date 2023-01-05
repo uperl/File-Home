@@ -145,6 +145,9 @@ does the legwork and creates a PR.
 
 =head1 SEE ALSO
 
+Most existing implementations use the C<HOME> environment variable if it is defined
+on Windows, which is arguably incorrect.
+
 =over 4
 
 =item C<< <~> >>
