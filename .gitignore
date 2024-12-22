@@ -2,4 +2,7 @@ File-Home-*
 /.build/
 *.swp
 
-
+/File-Home-*
+/.build
+*.old
+*.orig
